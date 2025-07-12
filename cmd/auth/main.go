@@ -4,6 +4,8 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+
+	"github.com/CatGitBon/auth-service/internal/config"
 )
 
 func main() {
