@@ -1,5 +1,5 @@
 # Stage 1: Build the Go application
-FROM golang:1.23.1-alpine as builder
+FROM golang:1.24.4-alpine as builder
 WORKDIR /app
 
 COPY . .
