@@ -26,5 +26,7 @@ func run() (string, error) {
 		return "", fmt.Errorf("error loading config: %v", err)
 	}
 
+	fmt.Println(cfg)
+
 	return "", errors.New("khoih")
 }
